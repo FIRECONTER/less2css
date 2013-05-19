@@ -7,6 +7,8 @@ body {
   margin: 0px auto;
 }
 h3 {
-  font-size: 16px;
+  font-size: 20px;
   color: #3b5888;
+  background-color: #ccc;
+  padding: 10px;
 }
