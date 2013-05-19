@@ -1,0 +1,12 @@
+body {
+  background-color: #f7f7f7;
+}
+#main {
+  width: 960px;
+  padding: 50px;
+  margin: 0px auto;
+}
+h3 {
+  font-size: 16px;
+  color: #3b5888;
+}
