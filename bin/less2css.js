@@ -8,8 +8,6 @@ var public_dir = path.join(__dirname, "..", "public");
 var less_dir = path.join(public_dir, "less", "base.less");
 var css_dir = path.join(public_dir, "css", "base.css");
 
-
-
 function compile_less(input_file, output_file) {
 	var cmd = ['lessc ', input_file, ' > ', output_file].join('');
 	exec(cmd, {encoding: 'utf-8'}, 
